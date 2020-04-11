@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Projects\AdminWebCore\AdminWebCore\AdminWebCore.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\coreui\css\coreui-icons.css.map" />
+    <None Include="wwwroot\lib\coreui\css\coreui-icons.min.css.map" />
+    <None Include="wwwroot\lib\coreui\css\style.css.map" />
+    <None Include="wwwroot\lib\coreui\css\style.min.css.map" />
+    <None Include="wwwroot\lib\coreui\dist\css\coreui-standalone.css.map" />
+    <None Include="wwwroot\lib\coreui\dist\css\coreui-standalone.min.css.map" />
+    <None Include="wwwroot\lib\coreui\dist\css\coreui.css.map" />
+    <None Include="wwwroot\lib\coreui\dist\css\coreui.min.css.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\ajax-load.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\ajax-load.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\aside-menu.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\aside-menu.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui-utilities.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui-utilities.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui-utilities.min.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui-utilities.min.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui.min.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\coreui.min.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\index.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\index.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\polyfill.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\polyfill.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\sidebar.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\sidebar.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\toggle-classes.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\toggle-classes.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\classes.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\classes.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\deep-objects-merge.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\deep-objects-merge.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-color.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-color.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-css-custom-properties.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-css-custom-properties.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-style.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\get-style.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\hex-to-rgb.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\hex-to-rgb.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\hex-to-rgba.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\hex-to-rgba.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\index.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\index.js.map" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\rgb-to-hex.js" />
+    <None Include="wwwroot\lib\coreui\dist\js\utilities\rgb-to-hex.js.map" />
+    <None Include="wwwroot\lib\coreui\icons\scss\coreui-icons.scss" />
+    <None Include="wwwroot\lib\coreui\icons\scss\_core.scss" />
+    <None Include="wwwroot\lib\coreui\img\brand\logo.svg" />
+    <None Include="wwwroot\lib\coreui\img\brand\sygnet.svg" />
+    <None Include="wwwroot\lib\coreui\js\charts.js" />
+    <None Include="wwwroot\lib\coreui\js\charts.js.map" />
+    <None Include="wwwroot\lib\coreui\js\colors.js" />
+    <None Include="wwwroot\lib\coreui\js\colors.js.map" />
+    <None Include="wwwroot\lib\coreui\js\custom-tooltips.js" />
+    <None Include="wwwroot\lib\coreui\js\custom-tooltips.js.map" />
+    <None Include="wwwroot\lib\coreui\js\custom-tooltips.min.js" />
+    <None Include="wwwroot\lib\coreui\js\custom-tooltips.min.js.map" />
+    <None Include="wwwroot\lib\coreui\js\main.js" />
+    <None Include="wwwroot\lib\coreui\js\main.js.map" />
+    <None Include="wwwroot\lib\coreui\js\popovers.js" />
+    <None Include="wwwroot\lib\coreui\js\popovers.js.map" />
+    <None Include="wwwroot\lib\coreui\js\src\charts.js" />
+    <None Include="wwwroot\lib\coreui\js\src\colors.js" />
+    <None Include="wwwroot\lib\coreui\js\src\main.js" />
+    <None Include="wwwroot\lib\coreui\js\src\popovers.js" />
+    <None Include="wwwroot\lib\coreui\js\src\tooltips.js" />
+    <None Include="wwwroot\lib\coreui\js\src\widgets.js" />
+    <None Include="wwwroot\lib\coreui\js\tooltips.js" />
+    <None Include="wwwroot\lib\coreui\js\tooltips.js.map" />
+    <None Include="wwwroot\lib\coreui\js\widgets.js" />
+    <None Include="wwwroot\lib\coreui\js\widgets.js.map" />
+    <None Include="wwwroot\lib\coreui\scss\style.scss" />
+    <None Include="wwwroot\lib\coreui\scss\vendors\pace-progress\pace.scss" />
+    <None Include="wwwroot\lib\coreui\scss\vendors\_variables.scss" />
+    <None Include="wwwroot\lib\coreui\scss\_custom.scss" />
+    <None Include="wwwroot\lib\coreui\scss\_variables.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.3.0" />
+  </ItemGroup>
+
+</Project>

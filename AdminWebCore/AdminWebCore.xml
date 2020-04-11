@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminWebCore</name>
+    </assembly>
+    <members>
+        <member name="T:AdminWebCore.Apis.AccountController">
+            <summary>
+            Class AccountController.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:AdminWebCore.Apis.AccountController.Get">
+            <summary>
+            Gets this instance.
+            </summary>
+            <returns>IEnumerable&lt;System.String&gt;.</returns>
+        </member>
+        <member name="M:AdminWebCore.Apis.AccountController.Get(System.Int32)">
+            <summary>
+            Gets the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:AdminWebCore.Apis.AccountController.Post(System.String)">
+            <summary>
+            Posts the specified value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:AdminWebCore.Apis.AccountController.Put(System.Int32,System.String)">
+            <summary>
+            Puts the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:AdminWebCore.Apis.AccountController.Delete(System.Int32)">
+            <summary>
+            Deletes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+        </member>
+    </members>
+</doc>
