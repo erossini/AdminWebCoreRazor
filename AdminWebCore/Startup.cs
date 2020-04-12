@@ -47,11 +47,10 @@ namespace AdminWebCore
             });
 
             services.AddAuthentication("Bearer")
-            .AddJwtBearer("Bearer", options =>
-            {
-                options.Authority = "https://localhost:44301";
-                options.RequireHttpsMetadata = false;
-            });
+                    .AddJwtBearer("Bearer", options => {
+                        options.Authority = "https://localhost:44301";
+                        options.RequireHttpsMetadata = false;
+                    });
 
             services.AddIdentityServer()
                     .AddDeveloperSigningCredential() //not something we want to use in a production environment
