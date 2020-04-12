@@ -43,5 +43,28 @@
             </summary>
             <param name="id">The identifier.</param>
         </member>
+        <member name="T:AdminWebCore.Configurations.IdentityServer.InMemoryConfig">
+            <summary>
+            Class InMemoryConfig.
+            </summary>
+        </member>
+        <member name="M:AdminWebCore.Configurations.IdentityServer.InMemoryConfig.GetIdentityResources">
+            <summary>
+            Gets the identity resources for IdentityServer4
+            </summary>
+            <returns>IEnumerable&lt;IdentityResource&gt;.</returns>
+        </member>
+        <member name="M:AdminWebCore.Configurations.IdentityServer.InMemoryConfig.GetUsers">
+            <summary>
+            Gets the users.
+            </summary>
+            <returns>List&lt;TestUser&gt;.</returns>
+        </member>
+        <member name="M:AdminWebCore.Configurations.IdentityServer.InMemoryConfig.GetClients">
+            <summary>
+            Gets the clients.
+            </summary>
+            <returns>IEnumerable&lt;Client&gt;.</returns>
+        </member>
     </members>
 </doc>
