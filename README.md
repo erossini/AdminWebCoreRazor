@@ -1,5 +1,5 @@
-# AdminWebCore
-Boilerplate bootstrap admin template for `ASP.NET Core 3.1`.
+# Admin Web Core Razor
+Boilerplate bootstrap admin template for `ASP.NET Core 3.1` for a Razor project.
 
 The project is based on Razor [pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1&tabs=visual-studio). I have already fixed the solution to add `webapi` and document them with **Swagger**.
 
